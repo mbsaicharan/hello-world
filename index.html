@@ -1,11 +1,46 @@
+<!DOCTYPE html>
 <html>
-  <style>
-    body{
-    background-color:green;
-    }
-  </style>
-  <head> This is </head>
-  <body>
-    <h1>Hi asf</h1>
-  </body>
+ <head>
+  <title>Charan's book store</title>
+  <link rel= "stylesheet" type="text/css" href="style.css">
+ </head>
+ <body>
+  <header>
+   <h1 align="center">Charan's Book Store</h1>
+   <div class="login"> 
+    <p align="left">User name:<input type="text" maxlength="32" size="16"></p>
+    <p align="left">Password:   <input type="password" maxlength="32" size="16"></p>
+    <a align="left"><input type="submit" value="Log In"></a><br />
+    <a href="#">Forgot Password?</a>
+    <a href="register.html" target="display">Not Registered?</a>
+   </div>
+  </header>
+  <nav>
+   <ul>
+    <li><a href="book.html">HOME</a></li>
+    <li><a href="#">ORDER</a></li>
+    <li><a href="#">CART</a></li>
+   </ul>
+  </nav>
+  <section>
+   <ul>
+	 <li><caption><h2>Books Catalog</h2></caption></li>
+     <li><a href="maths.html" target="display">Maths</a><li>
+     <li><a href="physics.html" target="display">Physics</a></li>
+     <li><a href="chemistry.html" target="display">Chemistry</a></li>
+     <li><a href="economics.html" target="display">Economics</a></li>
+     <li><a href="computerscience.html" target="display">Computer Science</a></li>
+     <li><a href="biology.html" target="display">Biology</a></li>
+     <li><a href="zoology.html" target="display">Zoology</a></li>
+     <li><a href="botany.html" target="display">Botany</a></li>
+     <li><a href="novels.html" target="display">Novels</a></li>
+   </ul>  
+  <iframe name="display" src="maths.html" frameborder="0">
+  </iframe>
+  </section>
+  <footer>
+   Copyright @ www.saicharan.com
+  </footer>
+ </body>
 </html>
+
